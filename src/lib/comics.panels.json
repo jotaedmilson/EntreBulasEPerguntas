@@ -1,0 +1,122 @@
+{
+	"armazenamento": [
+		{
+			"id": 1,
+			"src": "/comics/armazenamento/1.png",
+			"width": 876,
+			"height": 680
+		},
+		{
+			"id": 2,
+			"src": "/comics/armazenamento/2.png",
+			"width": 1132,
+			"height": 679
+		},
+		{
+			"id": 3,
+			"src": "/comics/armazenamento/3.png",
+			"width": 1001,
+			"height": 841
+		},
+		{
+			"id": 4,
+			"src": "/comics/armazenamento/4.png",
+			"width": 1007,
+			"height": 844
+		},
+		{
+			"id": 5,
+			"src": "/comics/armazenamento/5.png",
+			"width": 993,
+			"height": 822
+		},
+		{
+			"id": 6,
+			"src": "/comics/armazenamento/6.png",
+			"width": 1013,
+			"height": 829
+		},
+		{
+			"id": 7,
+			"src": "/comics/armazenamento/7.png",
+			"width": 1004,
+			"height": 718
+		},
+		{
+			"id": 8,
+			"src": "/comics/armazenamento/8.png",
+			"width": 1008,
+			"height": 720
+		}
+	],
+	"descarte": [
+		{
+			"id": 1,
+			"src": "/comics/descarte/1.svg",
+			"width": 1000,
+			"height": 687
+		},
+		{
+			"id": 2,
+			"src": "/comics/descarte/2.svg",
+			"width": 1000,
+			"height": 735
+		},
+		{
+			"id": 3,
+			"src": "/comics/descarte/3.svg",
+			"width": 1000,
+			"height": 724
+		},
+		{
+			"id": 4,
+			"src": "/comics/descarte/4.svg",
+			"width": 1000,
+			"height": 841
+		}
+	],
+	"farmaceutico": [
+		{
+			"id": 1,
+			"src": "/comics/farmaceutico/1.png",
+			"width": 1195,
+			"height": 1094
+		},
+		{
+			"id": 2,
+			"src": "/comics/farmaceutico/2.png",
+			"width": 812,
+			"height": 1027
+		},
+		{
+			"id": 3,
+			"src": "/comics/farmaceutico/3.png",
+			"width": 1004,
+			"height": 621
+		},
+		{
+			"id": 4,
+			"src": "/comics/farmaceutico/4.png",
+			"width": 1004,
+			"height": 621
+		},
+		{
+			"id": 5,
+			"src": "/comics/farmaceutico/5.png",
+			"width": 2008,
+			"height": 621
+		},
+		{
+			"id": 6,
+			"src": "/comics/farmaceutico/6.png",
+			"width": 1004,
+			"height": 812
+		},
+		{
+			"id": 7,
+			"src": "/comics/farmaceutico/7.png",
+			"width": 1004,
+			"height": 812
+		}
+	]
+}
