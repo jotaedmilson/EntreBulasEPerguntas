@@ -38,14 +38,14 @@ O site tem várias páginas:
 ## Funcionalidades
 
 - **Catálogo com 3 histórias:**
-  1. _A Doutora não é Doutora?_ — a diferença entre médico e farmacêutico;
-  2. _O Mistério da Bula_ — a importância de ler a bula;
-  3. _Antibiótico não é bala!_ — o uso correto de antibióticos.
+  1. _O que é um farmacêutico?_ — a diferença entre médico e farmacêutico;
+  2. _Aarmazenamento de medicamentos_ — como guardar medicamentos de maneira correta;
+  3. _Descarte de remédios_ — o descarte correto de medicamentos.
 - **Leitor "página viva":** a página de quadrinhos vai se montando aos poucos —
   cada quadro aparece com uma animação conforme a leitura avança.
 - **Leitura guiada:** ao abrir uma história, um passo a passo explica como ler.
-- **Controles simples:** _Continuar_, _Passar sozinho/Pausar_, _Ir para o fim_,
-  _Voltar um quadro_ e _Ler de novo_.
+- **Controles simples:** _Continuar_  ,_Voltar (um quadro)_ e _Ler de novo_ ao
+  finalizar a história.
 - **Busca** de histórias por título ou tema.
 - **Versões pensadas para cada aparelho:** no computador, navegação no topo e
   grade de cartões; no celular, menu em gaveta, lista de cartões e barra de
@@ -125,9 +125,8 @@ npm run preview   # testa a versão de produção localmente
 1. Crie a pasta `static/comics/<id>/` e solte os quadros nela, numerados em
    ordem (`1.png`, `2.png`…). Veja `static/comics/README.md`.
 2. Abra `src/lib/comics.data.js` e copie um dos blocos da lista `webcomics`;
-   troque o `id`, o `title`, a `tagline`, a `description` e o `alt` de cada
-   quadro (acessibilidade).
-3. Rode `npm run panels` (o `npm run dev`/`build` também atualiza sozinho).
+   troque o `id`, o `title`, a `tagline` e a `description`.
+2. Rode `npm run panels` (o `npm run dev`/`build` também atualiza sozinho).
 4. Pronto! A história aparece sozinha no catálogo e ganha o endereço
    `/historia/<id>`.
 
@@ -135,8 +134,7 @@ npm run preview   # testa a versão de produção localmente
 
 As imagens ficam em `static/comics/<historia>/<numero>.<ext>` (png, webp, svg…).
 Para usar uma arte própria, basta substituir/soltar o arquivo e rodar
-`npm run panels`. O `alt` em `comics.data.js` descreve cada quadro para leitores
-de tela. Veja também `static/comics/README.md`.
+`npm run panels`.
 
 ## Acessibilidade
 
@@ -147,7 +145,6 @@ Feito com atenção a quem mais precisa — em especial os idosos:
 - **Foco visível** em todos os botões e links (para uso pelo teclado).
 - Atalho **"Pular para o conteúdo"** e marcos de página (`header`, `main`,
   `footer`, `nav`).
-- Imagens com texto alternativo (`alt`) descrevendo cada quadro.
 - Respeita a preferência de **menos movimento** (`prefers-reduced-motion`).
 - Funciona em celular, tablet e computador, com zoom liberado.
 
