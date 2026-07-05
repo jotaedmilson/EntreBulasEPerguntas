@@ -1,6 +1,6 @@
-import tailwindcss from '@tailwindcss/vite';
 import adapter from '@sveltejs/adapter-static';
 import { sveltekit } from '@sveltejs/kit/vite';
+import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
 import { comicsPanels } from './scripts/vite-plugin-comics-panels.mjs';
 
@@ -23,5 +23,10 @@ export default defineConfig({
 			// desconhecidas em hospedagens estáticas.
 			adapter: adapter({ fallback: '404.html' })
 		})
-	]
+	],
+	base:"/EntreBulasEPerguntas/",
+	 build: {
+    outDir: './build', // relative to index.html
+    // emptyOutDir: true, // true if outDir is inside root. if outDir is not inside root, uncomment this.
+  }
 });
