@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-vercel';
 import { sveltekit } from '@sveltejs/kit/vite';
 import tailwindcss from '@tailwindcss/vite';
 import { defineConfig } from 'vite';
@@ -26,7 +26,7 @@ export default defineConfig({
 	],
 	base:"/EntreBulasEPerguntas/",
 	 build: {
-    outDir: './docs', // relative to index.html
+    outDir: './public', // relative to index.html
     // emptyOutDir: true, // true if outDir is inside root. if outDir is not inside root, uncomment this.
   }
 });
