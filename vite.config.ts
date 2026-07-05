@@ -26,7 +26,7 @@ export default defineConfig({
 	],
 	base:"/EntreBulasEPerguntas/",
 	 build: {
-    outDir: './build', // relative to index.html
+    outDir: './docs', // relative to index.html
     // emptyOutDir: true, // true if outDir is inside root. if outDir is not inside root, uncomment this.
   }
 });
